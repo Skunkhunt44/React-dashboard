@@ -1,0 +1,84 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
+
+
+
+
+
+*{box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+html{
+    font-family: 'Inter', sans-serif;
+}
+.Side-barcontainer{
+ 
+    padding: 20px;
+    width: 12rem ;
+    height: 100vh;
+    background-color:#2A2D40 ;
+    color:white;
+    position: relative;
+}
+
+li{
+    list-style: none;
+}
+.logo{
+     width: 50%;   
+  
+  
+}
+ a{
+    text-decoration: none;
+    color: inherit;
+    
+}
+
+.icon{
+    margin-right: 10px;
+}
+.head{
+
+    margin-bottom: 40px;
+}
+ul{
+    display: flex;
+    flex-direction: column;
+ gap:25px;
+ 
+}
+.logout{
+    position: absolute ;
+    bottom:50px
+}
+
+.logo {
+    /* height: 6em;
+    padding: 1.5em; */
+    will-change: filter;
+    transition: filter 300ms;
+  }
+  .logo:hover {
+    filter: drop-shadow(0 0 2em #646cffaa);
+  }
+  .logo.react:hover {
+    filter: drop-shadow(0 0 2em #61dafbaa);
+  }
+  
+  
+  @keyframes logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  @media (prefers-reduced-motion: no-preference) {
+   .logo {
+      animation: logo-spin infinite 20s linear;
+    }
+  }
